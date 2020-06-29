@@ -1,0 +1,22 @@
+
+
+==========================================
+MEDUSA-RUNTIME.JS CHANGE DESCRIPTIONS
+==========================================
+	change word-break: normal; to word-break: normal;
+
+	change margin-top: -24px to margin-top: -12px
+
+
+	change border-top: rgb(34, 34, 34) to border-top: rgb(149, 149, 149) 
+	change border-left: rgb(34, 34, 34) to border-left: rgb(149, 149, 149) 	
+		change NEAR THE ABOVE: padding: 4px; to padding: 3px;
+
+	change text-shadow":"0px 0px 0.5px #666 to text-shadow":"0px 0px 0px #666
+	
+==========================================
+HOME.MAKO CHANGE DESCRIPTIONS
+==========================================	
+	remove <br> around line 53
+	
+	

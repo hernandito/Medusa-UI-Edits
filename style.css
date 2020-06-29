@@ -1247,12 +1247,15 @@ displayShow.mako
 }
 
 h1.title {
-    padding-bottom: 12px;
+    padding-bottom: 6px;
     margin-bottom: 15px;
     line-height: 30px;
     text-align: left;
     text-rendering: optimizelegibility;
     border-bottom: 1px solid rgb(136, 136, 136);
+	padding-top: 10px;
+	padding-bottom: 0px;
+	
 }
 
 h1.title a {
@@ -1325,6 +1328,8 @@ ul.tags li a {
     width: 100%;
     overflow: auto;
     cursor: default;
+	background-color: #fff3dd;
+	border: 1px solid #a2a2a2;
 }
 
 #summaryBackground {
@@ -1332,11 +1337,11 @@ ul.tags li a {
     top: 305px;
     width: 100%;
     height: 200px;
-    background-color: #efefef;
-    opacity: 0.8;
-    border-width: 1px;
-    border-style: solid none;
-    border-color: rgb(136, 136, 136);
+//    background-color: #efefef;
+ //   opacity: 0.8;
+//    border-width: 1px;
+//    border-style: solid none;
+//    border-color: rgb(136, 136, 136);
 }
 
 #checkboxControlsBackground {
@@ -1344,16 +1349,18 @@ ul.tags li a {
     top: 0;
     width: 100%;
     height: 0;
-    background-color: #ddd;
-    opacity: 0.8;
-    border-width: 1px;
-    border-style: solid none;
-    border-color: rgb(136, 136, 136);
-    z-index: -2;
+//    background-color: #ddd;
+ //   opacity: 0.8;
+//    border-width: 1px;
+ //   border-style: solid none;
+ //   border-color: rgb(136, 136, 136);
+//    z-index: -2;
 }
 
 #checkboxControls {
     padding-top: 2px;
+	margin-top: -6px;
+//	margin-left: 195px;
 }
 
 #checkboxControls span {
@@ -2837,7 +2844,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .shadow {
-    box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.5);
+//    box-shadow: 3px 3px 3px rgba(17, 17, 17, 0.5);
 }
 
 .border-bottom {
@@ -4080,7 +4087,8 @@ CSS helper classes
 =========================================================================== */
 
 .top-5 {
-    margin-top: 5px;
+    margin-top: 6px;
+
 }
 
 .top-10 {
@@ -4088,7 +4096,7 @@ CSS helper classes
 }
 
 .top-15 {
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .top-20 {
@@ -4171,8 +4179,9 @@ CSS helper classes
 
 @media (max-width: 1700px) {
     #key-padding {
-        margin-left: 0;
-        margin-right: 5px;
+	margin-left: 194px;
+	margin-right: 5px;
+	margin-top: 12px;
     }
 }
 

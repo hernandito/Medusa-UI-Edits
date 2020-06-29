@@ -63,7 +63,10 @@ displayShow.mako
 }
 
 .snatchTitle {
-    color: rgb(0, 0, 0) !important;
+    color: #5e5e5e !important;
+	font-family: sans-serif;
+font-size: 26px;
+font-weight: 600;
 }
 
 /* =======================================================================
